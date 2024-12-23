@@ -1,0 +1,39 @@
+DSAS A Secure Data Sharing and Authorized Searchable Framework for e-Healthcare System
+
+
+pid	
+age	
+sex	
+Cerebral_palsy	
+trestbps	
+chol	
+fbs	
+restecg	
+thalach	
+exang	
+oldpeak	
+bp	
+Disease
+hcode
+
+
+
+
+CREATE TABLE `pdetails` (
+  `id` int(11) NOT NULL auto_increment,
+pid text,	 
+age text,	
+sex text,	 
+Cerebral_palsy text,	
+trestbps text,	
+chol text,	
+fbs text,	
+restecg	 text,
+thalach	 text,
+exang	 text,
+oldpeak	 text,
+bp	 text,
+Disease  text,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
